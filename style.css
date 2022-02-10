@@ -1,0 +1,14 @@
+body {
+    background: rgb(52, 174, 204);
+}
+
+h1 {
+    color: white;
+    letter-spacing: 5px;
+}
+
+h3 {
+    color: black;
+    line-height: 10px;
+    margin-left: 175px;
+}

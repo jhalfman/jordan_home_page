@@ -3,12 +3,14 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
     width: 100%;
     text-align: center;
     background-color: #000;
 }
 
-ul {
+ul.navlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,12 +19,12 @@ ul {
     text-align: center;
 }
 
-li {
+.navlist li {
     float: left;
     font-size: 20px;
 }
 
-li a {
+.navlist li a {
     display: block;
     padding: 10px 80px;
     text-decoration: none;
@@ -30,7 +32,7 @@ li a {
     text-align: center;
 }
 
-li a:hover {
+.navlist li a:hover {
     background-color: white;
     color: black;
 }
@@ -46,12 +48,49 @@ h1 {
     color: rgb(162, 253, 177);
 }
 
+h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: coral;
+}
+
 h3 {
     margin-top: -30px;
     font-size: 15px;
     letter-spacing: 5px;
     color: rgb(115, 179, 126);
 }
+
+.intro img {
+    width: 35%;
+    border-left: solid 20px black;
+    border-right: solid 20px black;
+}
+
+.career {
+    border: solid 5px black;
+}
+
+.career h2 {
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 55%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.careerlist {
+    margin-top: 0px;
+}
+
+.careerbio {
+    width: 55%;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
 /* body {
     background: #2e373c url("pics/jordan_pic.jpg") center top;
     background-size: 500px 500px;

@@ -1,4 +1,58 @@
 body {
+    background: #2F4F4F;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    padding: 10px 80px;
+    text-decoration: none;
+    color: crimson;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.intro {
+    margin-top: -30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: rgb(162, 253, 177);
+}
+
+h3 {
+    margin-top: -30px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: rgb(115, 179, 126);
+}
+/* body {
     background: #2e373c url("pics/jordan_pic.jpg") center top;
     background-size: 500px 500px;
     background-repeat: no-repeat;
@@ -6,7 +60,9 @@ body {
     
 }
 
-h1 {
+*/
+
+/* h1 {
     color: white;
     letter-spacing: 5px;
 }
@@ -36,3 +92,4 @@ h3 {
     max-width: 100%;
     max-height: 100%;
 }
+*/

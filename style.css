@@ -160,7 +160,7 @@ h3 {
     display: inline-block;
     position: relative;
     left: 25px;
-    top: -40px;
+    top: -50px;
     z-index:-1;
 }
 
@@ -169,7 +169,7 @@ h3 {
     text-align: center;
 }
 
-#tangoprowl {
+img#tangoprowl {
     width: 40%;
     display: inline-block;
     margin-left: 10px;
@@ -177,7 +177,7 @@ h3 {
     z-index:-1;
 }
 
-#tangoblurb {
+div#tangoblurb {
     display: inline-block;
     margin-top: 0;
     position: absolute;
@@ -187,9 +187,9 @@ h3 {
     line-height: 20px;
 }
 
-#tangocute {
+img#tangocute {
     width: 60%;
-    margin-left: 75px;
+    margin-left: 275px;
 }
 
 .texas h2 {
@@ -197,7 +197,7 @@ h3 {
     margin-top: 0;
 }
 
-#texasfern {
+img#texasfern {
     width: 50%;
     margin-left: 10px;
     margin-top: -10px;
@@ -206,7 +206,7 @@ h3 {
     z-index:-1;
 }
 
-#texasblurb {
+div#texasblurb {
     margin-top: 5px;
     margin-left: 5px;
     display: inline-block;
@@ -216,7 +216,7 @@ h3 {
     line-height: 20px;
 }
 
-#texaslying {
+img#texaslying {
     width: 45%;
     margin-left: 10px;
 }

@@ -130,6 +130,11 @@ h3 {
     margin-right: 35px;
     margin-bottom: 15px;
 }
+
+.hobbies div img:hover {
+    opacity: 50%;
+}
+
 .hobbies p {
     margin-left: 45%;
     width:55%;
@@ -228,48 +233,24 @@ footer {
     color: white;
 }
 
+.container {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
 .finalpic img {
     width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-/* body {
-    background: #2e373c url("pics/jordan_pic.jpg") center top;
-    background-size: 500px 500px;
-    background-repeat: no-repeat;
-    
-    
+div#heart img {
+    width: 15%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    z-index: -2;
 }
-
-*/
-
-/* h1 {
-    color: white;
-    letter-spacing: 5px;
-}
-
-h3 {
-    color: black;
-    text-align: center;
-    line-height: 10px;
-    margin-left: 175px;
-}
-
-.leftcatpics {
-    max-width: 50%;
-    float: left;
-    margin: 0 20px 50px 50px;
-    overflow: auto;
-}
-
-.rightcatpics {
-    max-width: 50%;
-    float: right;
-    overflow: auto;
-    margin: 0 50px 20px 50px;
-}
-
-.maincatpic {
-    max-width: 100%;
-    max-height: 100%;
-}
-*/
